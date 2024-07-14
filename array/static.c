@@ -23,11 +23,8 @@ static void construct_array(void)
 
     for (unsigned int i = 0; i < size; ++i)
     {
-        int number;
         printf("Enter a number: ");
-        scanf("%i", &number);
-
-        my_array[i] = number;
+        scanf("%i", &my_array[i]);
     }
 
     array_size = size;
