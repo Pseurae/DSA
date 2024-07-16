@@ -3,13 +3,13 @@ CFLAGS  := -std=c99
 
 DEPS    := $(wildcard build/*.d)
 
-all: array
+all: queue
 
-array: array.c
-	$(CC) $(CFLAGS) -o array $^
+queue: queue.c
+	$(CC) $(CFLAGS) -o queue $^
 
 clean:
-	@rm array
+	@rm queue
 	@echo "Done."
 
 -include $(DEPS)
