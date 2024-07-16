@@ -4,7 +4,7 @@
 #define MAX_ELEMENTS 5
 #define MIN(_A, _B) ((_A) > (_B) ? (_B) : (_A))
 
-static int my_array[MAX_ELEMENTS] = {};
+static int my_array[MAX_ELEMENTS];
 static int array_size = 0;
 
 #define ASSERT(_cond, ...) \
